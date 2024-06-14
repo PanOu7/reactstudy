@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import Counter from "./components/Counter";
 //hook
 const App = () => {
   // let name="Hi React Developer";
@@ -38,6 +39,7 @@ const App = () => {
       ))}
         
       </ul>
+      <Counter/>
     </div>
   );
 };
